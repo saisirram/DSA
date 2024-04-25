@@ -5,7 +5,6 @@
 *.log
 
 *.idea
-*.iml
 *.autocp
 # BlueJ files
 *.ctxt
