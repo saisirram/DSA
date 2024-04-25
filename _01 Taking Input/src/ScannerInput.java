@@ -2,12 +2,13 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
+
 /*
-* Note:
-* If you are taking a string input after nextInt() or nextDouble() or nextFloat() or any nextXXX()
-* then you should do sc.nextLine() (which will give you new line char as String)
-* and then sc.nextLine() will you give you the actual string.
-* */
+ * Note:
+ * If you are taking a string input after nextInt() or nextDouble() or nextFloat() or any nextXXX()
+ * then you should do sc.nextLine() (which will give you new line char as String)
+ * and then sc.nextLine() will you give you the actual string.
+ * */
 public class ScannerInput {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
