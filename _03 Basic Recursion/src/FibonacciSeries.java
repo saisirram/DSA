@@ -9,14 +9,14 @@ public class FibonacciSeries {
     }
 
     /*
-    * A Fibonacci series is the sum of last and second last element
-    * it starts with 0 1
-    * then the next fib is 0 + 1 = 1 (0 1 1)
-    * the next fib is 1 + 1 = 2 (0 1 1 2)
-    * the next fib is 1 + 2 = 3 (0 1 1 2 3)
-    * so the series is like 0 1 1 2 3 5 8 13  . . . . . .
-    * fib (n) = fib(n-1) + fib(n-2)
-    * */
+     * A Fibonacci series is the sum of last and second last element
+     * it starts with 0 1
+     * then the next fib is 0 + 1 = 1 (0 1 1)
+     * the next fib is 1 + 1 = 2 (0 1 1 2)
+     * the next fib is 1 + 2 = 3 (0 1 1 2 3)
+     * so the series is like 0 1 1 2 3 5 8 13  . . . . . .
+     * fib (n) = fib(n-1) + fib(n-2)
+     * */
     public static int fibonacciNumbers(int n) {
         if (n <= 1) {
             return n;
